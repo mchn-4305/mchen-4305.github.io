@@ -93,6 +93,10 @@ main {
   background: rgba(0,0,0,0,6);
 }
 
+#contact-form{
+  background: url(../images/asilomar.jpeg) no-repeat center center/cover;
+}
+
 /* CSS for navigation bar */
 
 .navbar {
@@ -152,4 +156,36 @@ main {
   font-size: 40px;
   font-weight: 100;
   /* background: #eee; */
+}
+
+/* contact-form */
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+
+#contact-form label{
+  display:block;
+  float:left;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #333;
+}
+
+#contact-form textarea{
+  height:200px;
+}
+
+#contact-form form{
+  min-width: 600px;
 }
