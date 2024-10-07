@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micah's Portfolio</title>
+    <link rel="stylesheet" href="styles/util.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -19,15 +21,48 @@
       </nav>
     <main>
         <h1 class="page-title">Portfolio</h1>
-        <a href="index.html">
-          <img style="width:200px;"alt="My Hack4Impact Website" src="../images/h4isite.png">
-        </a>
-        <div class="project-details">
-          <p class="project-name">Hack4Impact Portfolio Site</p>
-          <p class="project-description">Developed a website by following the Hack4Impact Start Pack for the purposes of learning HTML. This website will serve as a personal project portfolio, and has a copy of my resume, a way to contact me, and a blog in which I can post updates on my personal progress in programming!</p>
-          <a href="index.html">LEARN MORE</a>
+        <div class="flex-columns">
+          <div class="row">
+            <div class="column">
+              <div class="column-2">
+                <img src="images/ct.png" alt="Club Management System Home Page">
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-1">
+                <div class="project">
+                  <div class="project-details">
+                    <h2 class="project-name">Club Management System</h2>
+                    <p class="project-description">Currently designing and developing a web application geared towards internal club management. Will allow users to add members, charge their accounts, and allow members to pay off balances via a POS system. Will include an event calendar and employee authentication. I hope to be able to implement functions to email all members at once, set up automated payments, and a report generator detailing monthly changes in data. Attached is a screenshot of the homepage that has already been implemented using HTML and CSS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="project"></div>
+
+        <div class="flex-columns">
+          <div class="row">
+            <div class="column">
+              <div class="column-1">
+                <div class="project">
+                  <div class="project-details">
+                    <h2 class="project-name">Hack4Impact Portfolio Site</h2>
+                    <p class="project-description">Developed a website by following the Hack4Impact Start Pack for the purposes of learning HTML. This website will serve as a personal project portfolio, and has a copy of my resume, a way to contact me, and a blog in which I can post updates on my personal progress in programming!</p>
+                    <a href="index.html">LEARN MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-2">
+                <a href="index.html">
+                  <img alt="My Hack4Impact Website" src="../images/h4isite.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>      
     </main>
     <footer class="footer">"© 2023 Micah Chen's Website | All Rights Reserved"</footer>
 </body>
