@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micah's Resume</title>
+    <link rel="stylesheet" href="styles/util.css">
+    <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -18,78 +20,118 @@
         </ul>
       </nav>
     <main>
-        <h1 class="page-title">Resume</h1>
-        <a href="resume.pdf" download>Download Resume</a>
+        <h1 class="page-title resume-header">Resume</h1>
+        <a href="resume.pdf" download>Download Resume Here</a>
         <div class="resume">
-            <section class="section">
-                <h2 class="section-title">Education</h2>
-                <div class="entry">
-                    <h3 class="entry-title">Bachelor of Science in Computer Science</h3>
-                    <p class="entry-info">California State Polytechnic University, San Luis Obispo</p>
-                    <p class="entry-description">Expected Graduation May 2027</p>
+            <div class="flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-1">
+                                <section class="section">
+                                    <h2 class="section-title">Education</h2>
+                                    <div class="entry">
+                                        <h3 class="entry-title">Bachelor of Science in Computer Science</h3>
+                                        <p class="entry-info">California State Polytechnic University, San Luis Obispo</p>
+                                        <p class="entry-description">Expected Graduation May 2027</p>
+                                    </div>
+                                </section>
+
+                                <section class="section">
+                                    <h2 class="section-title">Experience</h2>
+                                    <div class="entry">
+                                        <h3 class="entry-title">Robotics Design</h3>
+                                        <p class="entry-info">Salinas High School | 2021 - 2022</p>
+                                        <p class="entry-description">Lead a team of robotics design students over the course of a year. Took charge of projects, including a prosthetic arm given a budget under $20, and coordinated group members. Major contributor to concept designs and construction process.</p>
+                                    </div>
+                                </section>
+
+                                <section class="section">
+                                    <h2 class="section-title">Projects</h2>
+                                    <div class="entry">
+                                        <h3 class="entry-title">Club Management System</h3>
+                                        <p class="entry-info">July 2024 - Present</p>
+                                        <p class="entry-description">Designing and programming a management system built towards club institutions, with an interactive front-end built with HTML, and CSS, a backend built with JS, as well as a database system using SQL. Design process done with Figma. Application will allow users to add members to a database, add member information, add charges to member balances both individually and en masse, and implements a POS system to allow members to pay off balance.</p>
+                                    </div>
+                                </section>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-2">
+                            <img alt="Rock Climbing" src="../images/climbing.jpeg">
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section class="section">
-                <h2 class="section-title">Experience</h2>
-                <div class="entry">
-                    <h3 class="entry-title">Robotics Design</h3>
-                    <p class="entry-info">Salinas High School | 2021 - 2022</p>
-                    <p class="entry-description">Lead a team of robotics design students over the course of a year. Took charge of projects, including a prosthetic arm given a budget under $20, and coordinated group members. Major contributor to concept designs and construction process.</p>
+            </div>
+            <div class="flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-2">
+                            <img alt="My Dogs" src="../images/dogs.jpeg">
+                        </div>
+                    </div>
+                    <div class="column">
+
+                        <div class="column-1">
+                            <section class="section">
+                                <h2 class="section-title">Coursework</h2>
+                                <ul class="course-list">
+                                    <li>Intro to Software Engineering | in progress</li>
+                                    <li>Object-Oriented Programming</li>
+                                    <li>Data Structures</li>
+                                    <li>Systems Programming</li>
+                                    <li>Intro to Computer Science</li>
+                                </ul>
+                            </section>
+                            <section class="section">
+                                <h2 class="section-title">Skills</h2>
+                                <ul class="skill-list">
+                                    <li>Programming</li>
+                                    <li>Communication</li>
+                                    <li>Decisive</li>
+                                    <li>Patient</li>
+                                </ul>
+                            </section>
+                            <section class="section">
+                                <h2 class="section-title">Awards</h2>
+                                <div class="entry">
+                                    <h3 class="entry-title">CSF Lifetime Member</h3>
+                                    <p class="entry-info">2023 - Present</p>
+                                    <p class="entry-description">Reecognized by the California Scholarship Federation for academic achievement</p>
+                                    <h3 class="entry-title">Seal of Biliteracy</h3>
+                                    <p class="entry-info">Japanese | 2023 - Present</p>
+                                    <p class="entry-description">Studied Japanese in high school for 4 years, achieving a functional level of comprehension. Recognized for the Seal of Biliteracy through an interview in Japanese</p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div>
             <section class="section">
-                <h2 class="section-title">Projects</h2>
-                <div class="entry">
-                    <h3 class="entry-title">Club Management System</h3>
-                    <p class="entry-info">July 2024 - Present</p>
-                    <p class="entry-description">Designing and programming a management system built towards club institutions, with an interactive front-end built with HTML, and CSS, a backend built with JS, as well as a database system using SQL. Design process done with Figma. Application will allow users to add members to a database, add member information, add charges to member balances both individually and en masse, and implements a POS system to allow members to pay off balance.</p>
-                </div>
-            </section>
-            <section class="section">
-                <h2 class="section-title">Coursework</h2>
-                <ul class="course-list">
-                    <li>Intro to Software Engineering | in progress</li>
-                    <li>Object-Oriented Programming</li>
-                    <li>Data Structures</li>
-                    <li>Systems Programming</li>
-                    <li>Intro to Computer Science</li>
-                </ul>
-            </section>
-            <section class="section">
-                <h2 class="section-title">Skills</h2>
-                <ul class="skill-list">
-                    <li>Programming</li>
-                    <li>Communication</li>
-                    <li>Decisive</li>
-                    <li>Patient</li>
-                </ul>
-            </section>
-            <section class="section">
-                <h2 class="section-title">Awards</h2>
-                <div class="entry">
-                    <h3 class="entry-title">CSF Lifetime Member</h3>
-                    <p class="entry-info">2023 - Present</p>
-                    <p class="entry-description">Reecognized by the California Scholarship Federation for academic achievement</p>
-                    <h3 class="entry-title">Seal of Biliteracy</h3>
-                    <p class="entry-info">Japanese | 2023 - Present</p>
-                    <p class="entry-description">Studied Japanese in high school for 4 years, achieving a functional level of comprehension. Recognized for the Seal of Biliteracy through an interview in Japanese</p>
-                </div>
-            </section>
-            <section class="section">
-                <h2 class="section-title">References</h2>
-                <div class="entry">
-                    <h3 class="entry-title">Miranda Trayford</h3>
-                    <p class="entry-info">Teacher | Salinas High School</p>
-                    <p class="entry-description">Email: miranda.trayford@salinasuhsd.org</p>
-                </div>
-                <div class="entry">
-                    <h3 class="entry-title">Ali Flory</h3>
-                    <p class="entry-info">Membership Director | Chamisal Fitness and Tennis Club</p>
-                    <p class="entry-description">Email: ali@chamisal.com</p>
+                <h2 class="section-title resume-header">References</h2>
+                <div class="flex-columns">
+                    <div class="row">
+                        <div class="column">
+                            <div class="column-1">
+                                <div class="entry">
+                                    <h3 class="entry-title">Miranda Trayford</h3>
+                                    <p class="entry-info">Teacher | Salinas High School</p>
+                                    <p class="entry-description">Email: miranda.trayford@salinasuhsd.org</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="column-1">
+                                <div class="entry">
+                                    <h3 class="entry-title">Ali Flory</h3>
+                                    <p class="entry-info">Membership Director | Chamisal Tennis Club</p>
+                                    <p class="entry-description">Email: ali@chamisal.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
-        <img style="width:200px;"alt="My Dogs" src="../images/dogs.jpeg">
     </main>
     <footer class="footer">"© 2023 Micah Chen's Website | All Rights Reserved"</footer>
 </body>
